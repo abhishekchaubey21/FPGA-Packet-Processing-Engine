@@ -11,37 +11,41 @@ An FPGA-based packet processing engine for intelligent network traffic managemen
 - **Simulation:** Vivado XSim
 
 ## Architecture
-Traffic Generator
-        ↓
-Packet Parser
-        ↓
-Priority Classifier
-        ↓
-QoS Controller
-        ↓
-Queue Dispatcher
-        ↓
-   FIFO Queues
-        ↓
-    Scheduler
-        ↓
-   RED / WRED
-        ↓
- Packet Output
 
-Key Modules
-Packet Generator & Parser
-Priority Classifier
-QoS Controller
-Queue Dispatcher & FIFO
-Packet Scheduler
-RED / WRED Controllers
-Adaptive QoS Engine
-Network State Analyzer
-Performance & Latency Monitor
-Fairness Index Calculator
+**Traffic Generator**  
+↓  
+**Packet Parser**  
+↓  
+**Priority Classifier**  
+↓  
+**QoS Controller**  
+↓  
+**Queue Dispatcher**  
+↓  
+**FIFO Queues**  
+↓  
+**Scheduler**  
+↓  
+**RED / WRED**  
+↓  
+**Packet Output**
 
-Project Structure
+## Key Modules
+
+- Packet Generator & Parser
+- Priority Classifier
+- QoS Controller
+- Queue Dispatcher & FIFO
+- Packet Scheduler
+- RED / WRED Controllers
+- Adaptive QoS Engine
+- Network State Analyzer
+- Performance & Latency Monitor
+- Fairness Index Calculator
+
+## Project Structure
+
+```text
 packet_processing_engine/
 ├── packet_processing_engine.srcs/
 │   ├── sources_1/    # RTL
@@ -49,9 +53,4 @@ packet_processing_engine/
 ├── packet_processing_engine.xpr
 ├── tb_top_behav.wcfg
 └── README.md
-
-Status
-🚧 Active Development
-Currently focused on RTL verification, simulation, timing analysis, and FPGA hardware validation.
-
 
