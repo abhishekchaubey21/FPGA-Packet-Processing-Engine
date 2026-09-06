@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="271.798 ns"></ZoomStartTime>
+      <ZoomEndTime time="338.399 ns"></ZoomEndTime>
+      <Cursor1Time time="520.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="340"></NameColumnWidth>
+      <ValueColumnWidth column_width="155"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="49" />
+   <wvobject fp_name="/tb_top/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/m_axis_tdata" type="array">
+      <obj_property name="ElementShortName">m_axis_tdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tdata[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/m_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">m_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/m_axis_tlast" type="logic">
+      <obj_property name="ElementShortName">m_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/m_axis_tready" type="logic">
+      <obj_property name="ElementShortName">m_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/clock_cycles" type="array">
+      <obj_property name="ElementShortName">clock_cycles[31:0]</obj_property>
+      <obj_property name="ObjectShortName">clock_cycles[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/destination" type="array">
+      <obj_property name="ElementShortName">destination[7:0]</obj_property>
+      <obj_property name="ObjectShortName">destination[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/drop_packet" type="logic">
+      <obj_property name="ElementShortName">drop_packet</obj_property>
+      <obj_property name="ObjectShortName">drop_packet</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/dropped_packets" type="array">
+      <obj_property name="ElementShortName">dropped_packets[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dropped_packets[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/high_data_out" type="array">
+      <obj_property name="ElementShortName">high_data_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">high_data_out[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/high_empty" type="logic">
+      <obj_property name="ElementShortName">high_empty</obj_property>
+      <obj_property name="ObjectShortName">high_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/high_full" type="logic">
+      <obj_property name="ElementShortName">high_full</obj_property>
+      <obj_property name="ObjectShortName">high_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/high_packet" type="array">
+      <obj_property name="ElementShortName">high_packet[63:0]</obj_property>
+      <obj_property name="ObjectShortName">high_packet[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/high_packets" type="array">
+      <obj_property name="ElementShortName">high_packets[31:0]</obj_property>
+      <obj_property name="ObjectShortName">high_packets[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/high_read" type="logic">
+      <obj_property name="ElementShortName">high_read</obj_property>
+      <obj_property name="ObjectShortName">high_read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/high_write" type="logic">
+      <obj_property name="ElementShortName">high_write</obj_property>
+      <obj_property name="ObjectShortName">high_write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/length" type="array">
+      <obj_property name="ElementShortName">length[15:0]</obj_property>
+      <obj_property name="ObjectShortName">length[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/low_data_out" type="array">
+      <obj_property name="ElementShortName">low_data_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">low_data_out[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/low_empty" type="logic">
+      <obj_property name="ElementShortName">low_empty</obj_property>
+      <obj_property name="ObjectShortName">low_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/low_full" type="logic">
+      <obj_property name="ElementShortName">low_full</obj_property>
+      <obj_property name="ObjectShortName">low_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/low_packet" type="array">
+      <obj_property name="ElementShortName">low_packet[63:0]</obj_property>
+      <obj_property name="ObjectShortName">low_packet[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/low_packets" type="array">
+      <obj_property name="ElementShortName">low_packets[31:0]</obj_property>
+      <obj_property name="ObjectShortName">low_packets[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/low_read" type="logic">
+      <obj_property name="ElementShortName">low_read</obj_property>
+      <obj_property name="ObjectShortName">low_read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/low_write" type="logic">
+      <obj_property name="ElementShortName">low_write</obj_property>
+      <obj_property name="ObjectShortName">low_write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/m_axis_tdata" type="array">
+      <obj_property name="ElementShortName">m_axis_tdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tdata[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/m_axis_tlast" type="logic">
+      <obj_property name="ElementShortName">m_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/m_axis_tready" type="logic">
+      <obj_property name="ElementShortName">m_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/m_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">m_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/medium_data_out" type="array">
+      <obj_property name="ElementShortName">medium_data_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">medium_data_out[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/medium_empty" type="logic">
+      <obj_property name="ElementShortName">medium_empty</obj_property>
+      <obj_property name="ObjectShortName">medium_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/medium_full" type="logic">
+      <obj_property name="ElementShortName">medium_full</obj_property>
+      <obj_property name="ObjectShortName">medium_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/medium_packet" type="array">
+      <obj_property name="ElementShortName">medium_packet[63:0]</obj_property>
+      <obj_property name="ObjectShortName">medium_packet[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/medium_packets" type="array">
+      <obj_property name="ElementShortName">medium_packets[31:0]</obj_property>
+      <obj_property name="ObjectShortName">medium_packets[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/medium_read" type="logic">
+      <obj_property name="ElementShortName">medium_read</obj_property>
+      <obj_property name="ObjectShortName">medium_read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/medium_write" type="logic">
+      <obj_property name="ElementShortName">medium_write</obj_property>
+      <obj_property name="ObjectShortName">medium_write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/output_packet" type="array">
+      <obj_property name="ElementShortName">output_packet[63:0]</obj_property>
+      <obj_property name="ObjectShortName">output_packet[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/output_valid" type="logic">
+      <obj_property name="ElementShortName">output_valid</obj_property>
+      <obj_property name="ObjectShortName">output_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/packet" type="array">
+      <obj_property name="ElementShortName">packet[63:0]</obj_property>
+      <obj_property name="ObjectShortName">packet[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/packet_id" type="array">
+      <obj_property name="ElementShortName">packet_id[15:0]</obj_property>
+      <obj_property name="ObjectShortName">packet_id[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/priority" type="array">
+      <obj_property name="ElementShortName">priority[2:0]</obj_property>
+      <obj_property name="ObjectShortName">priority[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/protocol" type="array">
+      <obj_property name="ElementShortName">protocol[1:0]</obj_property>
+      <obj_property name="ObjectShortName">protocol[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/queue_select" type="array">
+      <obj_property name="ElementShortName">queue_select[1:0]</obj_property>
+      <obj_property name="ObjectShortName">queue_select[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/throughput" type="array">
+      <obj_property name="ElementShortName">throughput[31:0]</obj_property>
+      <obj_property name="ObjectShortName">throughput[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/total_packets" type="array">
+      <obj_property name="ElementShortName">total_packets[31:0]</obj_property>
+      <obj_property name="ObjectShortName">total_packets[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/transmitted_packets" type="array">
+      <obj_property name="ElementShortName">transmitted_packets[31:0]</obj_property>
+      <obj_property name="ObjectShortName">transmitted_packets[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut/valid" type="logic">
+      <obj_property name="ElementShortName">valid</obj_property>
+      <obj_property name="ObjectShortName">valid</obj_property>
+   </wvobject>
+</wave_config>

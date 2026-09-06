@@ -1,0 +1,29 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "D:/2025.2.1/Vivado/data/rsb/busdef" \
+"../../../../packet_processing_engine.srcs/sources_1/new/adaptive_decision_unit.v" \
+"../../../../packet_processing_engine.srcs/sources_1/new/adaptive_weight_controller.v" \
+"../../../../packet_processing_engine.srcs/sources_1/new/adaptive_wred_controller.v" \
+"../../../../packet_processing_engine.srcs/sources_1/new/drop_controller.v" \
+"../../../../packet_processing_engine.srcs/sources_1/new/fairness_index_calculator.v" \
+"../../../../packet_processing_engine.srcs/sources_1/new/fifo_queue.v" \
+"../../../../packet_processing_engine.srcs/sources_1/new/latency_analyzer.v" \
+"../../../../packet_processing_engine.srcs/sources_1/new/lfsr_random.v" \
+"../../../../packet_processing_engine.srcs/sources_1/new/network_state_analyzer.v" \
+"../../../../packet_processing_engine.srcs/sources_1/new/packet_generator.v" \
+"../../../../packet_processing_engine.srcs/sources_1/new/packet_parser.v" \
+"../../../../packet_processing_engine.srcs/sources_1/new/packet_statistics.v" \
+"../../../../packet_processing_engine.srcs/sources_1/new/performance_monitor.v" \
+"../../../../packet_processing_engine.srcs/sources_1/new/priority_classifier.v" \
+"../../../../packet_processing_engine.srcs/sources_1/new/qos_profile_mapper.v" \
+"../../../../packet_processing_engine.srcs/sources_1/new/qos_score_calculator.v" \
+"../../../../packet_processing_engine.srcs/sources_1/new/queue_dispatcher.v" \
+"../../../../packet_processing_engine.srcs/sources_1/new/queue_utilization_monitor.v" \
+"../../../../packet_processing_engine.srcs/sources_1/new/scheduler.v" \
+"../../../../packet_processing_engine.srcs/sources_1/new/top.v" \
+"../../../../packet_processing_engine.srcs/sim_1/new/tb_top.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
